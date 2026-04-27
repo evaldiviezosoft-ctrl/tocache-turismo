@@ -280,7 +280,7 @@ nav ul a:hover { color: var(--dorado-claro); opacity: 1; }
    7. STATS BAR
 ══════════════════════════════════════ */
 .stats-bar {
-  position: relative; z-index: 2;
+  position: relative; z-index: 3;
   background: var(--dorado);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -306,7 +306,7 @@ nav ul a:hover { color: var(--dorado-claro); opacity: 1; }
 /* ══════════════════════════════════════
    8. SECCIONES — COMÚN
 ══════════════════════════════════════ */
-section { position: relative; z-index: 1; }
+section { position: relative; z-index: 2; }
 
 .section-pad {
   padding-block: var(--section-py);
